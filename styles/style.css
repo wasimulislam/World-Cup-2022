@@ -59,7 +59,7 @@ section.banner {
     color: white;
     background: rgba(221, 0, 0, 1);
     padding: 16px 25px;
-    border-radius: 3px;
+    border-radius: 4px;
     display: inline-block;
 }
 
@@ -162,6 +162,60 @@ span.time {
 
 /* Blog end */
 
+
+/* Match start */
+
+a.blog-match {
+    background: rgba(221, 0, 0, 1);
+    color: white;
+}
+
+.blog-match-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-match-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.blog-match-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-match-img span {
+    font-weight: 800;
+}
+
+.blog-match-img img {
+    width: 100%;
+}
+
+.blog-match-description {
+    text-align: center;
+    margin: 12px 0px;
+
+}
+
+.blog-match-description h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+
+}
+
+
+
+/* Match end */
+
 /* Footer start */
 
 footer {
@@ -195,7 +249,7 @@ footer {
     font-weight: 500;
 }
 
-a.social-button {
+a.social {
     background: #22213C;
     padding: 8px;
     display: inline-block;
@@ -208,7 +262,7 @@ a.social-button {
     margin: 30px 0px 10px 10px;
 }
 
-a.social-button:hover {
+a.social:hover {
     transform: translateY(10px);
     transition: .5s;
 }
