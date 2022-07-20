@@ -28,7 +28,7 @@ main {
 section.banner {
     background: rgba(22, 22, 22, 1);
     border-radius: 20px;
-    margin: 40px 60px 0px 60px;
+    margin: 40px 50px 0px 50px;
 
 }
 
@@ -36,8 +36,8 @@ section.banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 70px;
-    gap: 30px 100px;
+    padding: 0px 60px;
+    gap: 30px 80px;
 }
 
 .banner-box {
@@ -60,7 +60,7 @@ section.banner {
 }
 
 .banner-box p {
-    color: white;
+    color: #ddd;
     margin: 20px 0px;
 }
 
@@ -346,6 +346,7 @@ a.social:hover {
 
     .banner-flex {
         padding: 40px;
+        gap: 0px 0px;
     }
 
     .banner-box h1 {
@@ -357,12 +358,14 @@ a.social:hover {
     }
 
     .banner-box img {
-        height: 50vh;
+
+        height: 80vh;
 
     }
 
     .banner-img img {
-
+        height: 300px;
+        width: 310px;
         margin: 0px 0px -20px 0px;
     }
 
@@ -408,7 +411,7 @@ a.social:hover {
     }
 
     .footer-description a {
-        padding: 30px;
+        padding: 25px;
         display: inline-block;
     }
 
