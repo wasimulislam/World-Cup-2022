@@ -44,7 +44,7 @@ section.banner {
 }
 
 .banner-box h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: white;
 }
 
@@ -133,10 +133,12 @@ a.blog-own {
 .blog-img img {
     width: 100%;
     height: 200px;
+    border-radius: 5px;
 }
 
 .blog-description {
     padding: 15px;
+
 }
 
 .blog-description button {
